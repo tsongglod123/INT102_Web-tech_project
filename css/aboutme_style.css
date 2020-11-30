@@ -1,0 +1,100 @@
+body, html {
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+}
+  /* Control the left side */
+.left {
+    left: 0;
+    background-color: #242424;
+}
+  /* Control the right side */
+.right {
+    right: 0;
+    background-color: #2e2e2e;
+    color: white;
+}
+
+.card {
+    padding: 20px;
+    padding-top: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    /*max-width: 400px;*/
+    margin: auto;
+    text-align: center;
+    background-color: #464646;
+}
+  
+.adjust_profile_picture {
+    position: absolute;
+    top: 12%;
+    left: 20%;
+}
+
+.title {
+    font-weight: bold;
+    color: grey;
+    font-size: 18px;
+}
+
+table, tr, td {
+    position: relative;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+tr, td {
+    transition: transform 0.1s; /* Animation */
+    padding: 10px;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+tr:hover {
+    transform: scale(1.2);
+    background-color: #202020;
+}
+
+a:hover {
+    opacity: 0.5;
+}
+
+.social_media {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+img.profilePicture {
+    border-radius: 8px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.grid-container {
+    position: fixed;
+    display: grid;
+    padding: 10px;
+    width: fit-content;
+}
+
+.grid-item {
+    transition: transform 0.1s; /* Animation */
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.grid-item:hover {
+    transform: scale(1.5);
+}

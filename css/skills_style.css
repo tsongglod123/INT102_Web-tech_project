@@ -1,0 +1,68 @@
+body, html {
+	font-family: 'Ubuntu', sans-serif;
+	margin: 0;
+	background-color: #242424;
+}
+
+.grid-container {
+    position: fixed;
+    display: grid;
+    padding: 10px;
+    width: fit-content;
+}
+
+.grid-item {
+    transition: transform 0.1s; /* Animation */
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.grid-item:hover {
+    transform: scale(1.5);
+}
+
+.box {
+	position: absolute;
+  	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	width: 800px;
+	height: 500px;
+	background-color: #464646;
+	color: white;
+}
+
+.container {
+    width: 100%; /* Full width */
+    background-color: rgb(202, 202, 202); /* Grey background */
+}
+
+.skills {
+    text-align: right;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.java {
+    width: 30%; background-color: #4CAF50;
+}
+
+.html_css {
+    width: 25%; background-color: #2196F3;
+}
+
+.ms_office_Excel {
+    width: 45%; background-color: #00cf3e;
+}
+
+.ms_office_Word {
+    width: 90%; background-color: #0051ff;
+}
+
+.ms_office_PowerPoint {
+    width: 85%; background-color: #ff5d34;
+}

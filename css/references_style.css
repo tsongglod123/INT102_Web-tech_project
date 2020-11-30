@@ -1,0 +1,64 @@
+body, html {
+	font-family: 'Ubuntu', sans-serif;
+	margin: 0;
+	background-color: #242424;
+}
+
+.grid-container {
+    position: fixed;
+    display: grid;
+    padding: 10px;
+    width: fit-content;
+}
+
+.grid-item {
+    transition: transform 0.1s; /* Animation */
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.grid-item:hover {
+    transform: scale(1.5);
+}
+
+.box {
+	position: absolute;
+  	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	width: 800px;
+	height: 650px;
+	background-color: #464646;
+	color: white;
+}
+
+table, tr, td {
+    position: relative;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+tr, td {
+    transition: transform 0.1s; /* Animation */
+    padding: 10px;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+tr:hover {
+    transform: scale(1.1);
+    background-color: #202020;
+}
+
+table {
+	width: inherit;
+	height: inherit;
+}
+
+p {
+    font-size: 16px;
+}

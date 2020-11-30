@@ -1,0 +1,65 @@
+body, html {
+	font-family: 'Ubuntu', sans-serif;
+	margin: 0;
+	background-color: #242424;
+}
+
+.grid-container {
+    position: fixed;
+    display: grid;
+    padding: 10px;
+    width: fit-content;
+}
+
+.grid-item {
+    transition: transform 0.1s; /* Animation */
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.grid-item:hover {
+    transform: scale(1.5);
+}
+
+.box {
+	position: absolute;
+  	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	width: 800px;
+	height: 500px;
+	background-color: #464646;
+	color: white;
+}
+
+img {
+	transition: transform 0.1s; /* Animation */
+}
+
+img:hover {
+	transform: scale(1.1);
+}
+
+table, tr, td {
+	padding: 30px;
+	padding-left: 40px;
+	padding-right: 40px;
+    position: relative;
+	border-collapse: collapse;
+}
+
+table {
+	width: inherit;
+	height: inherit;
+}
+
+td.text_detail {
+	padding-left: 10px;
+}
+
+td.adjust_logo {
+	text-align: center;
+}
